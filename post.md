@@ -1,4 +1,4 @@
-# Lab X: Doing stuff with hardware!
+# Lab 01: Doing stuff with hardware!
 
 Please write a blog post describing your lab here.
 
