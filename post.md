@@ -17,7 +17,7 @@ The materials we will be using in this lab are:
 ..* Arduino controller with the USB adapter
 ..* computer for the Arduino IDE
 ..* 7404 chip
-..* 7408 chip
+..* 7408 chip g
 
 
 
