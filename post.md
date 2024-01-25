@@ -99,6 +99,72 @@ Locate the function generator on the left side of your breadboard.
 
 [Testing with AND gate](https://drive.google.com/file/d/1hgFkk98tifWOTf-YGGIOQmUQYs7ThiY-/view?usp=sharing) 
 
+### Step 5: Using the Arduino controller 
+
+- Using a laptop, go to the website www.arduino.cc/en/software to download the Arduino IDE.
+
+- Using the USB adapter, connect the Arduino to your laptop. Start the Arduino IDE.
+
+- Create a new “sketch” and save it as “Lab 1”. Type in the following code:
+
+```
+const int P = 13;
+
+const int A = 1000;
+
+const int B = 1000;
+
+
+void setup() {
+
+pinMode(P, OUTPUT);
+
+}
+
+
+void loop() {
+
+digitalWrite(P, HIGH);
+
+delay(A);
+
+digitalWrite(P, LOW);
+
+delay(B);
+
+}
+```
+
+- Code explanation: 
+
+  - Variable P is responsible for holding the value of the port number on the Arduino. The value must match the port we will be using. In this case, we will be using port 13, so our P is going to be 13, holding constant.
+
+  - Variables A and B are the tick delay in milliseconds.
+
+  - The setup() function is setting the output to the port we chose for P, in this case, port 13.
+
+  - The loop() function is a loop alternating between true and false (HIGH and LOW) and outputting it to port P. Each output is accompanied by a 1-second or 1000-millisecond delay.
+
+- After finishing writing the code, hit the “verify” button to compile your code and check that it is syntactically correct. If everything is correct, hit the “upload” button on the IDE to load your program to the Arduino. It will recompile your sketch and then connect to the Arduino. You should notice some of the lights on the Arduino blink rapidly as it is receiving data from the laptop.
+
+- Before we move forward, here are some things you should know about wiring and powering Arduinos:
+
+  - The Arduino can be powered in 3 ways: Connecting to the laptop, connecting to the breadboard, or connecting to the battery.
+
+  - For the sake of convenience, we will keep the Arduino connected to the laptop instead of unplugging it.
+
+  - If you want your Arduino to be mobile, you must use the battery.
+
+  - Once you download a program to the Arduino, it stays there in the flash memory. You will not lose the program if the Arduino loses power.
+
+  - Wire pin 13 on the Arduino to the first input pin on the AND gate from the previous step and replace the input from the first switch. The second AND input should remain connected with the second switch.
+
+  - Wire GND from the breadboard to GND on the Arduino. You can use any of the GND pins on the Arduino. This step is necessary so that Ground on the Arduino is at the same voltage as Ground on the breadboard.
+
+  - Make sure that the second switch (the one still connected to the IC) is set to high.
+
+  - Turn the switch back on, you can experiment with your program by changing the values of A and B.
+
 
 ## Testing
 
