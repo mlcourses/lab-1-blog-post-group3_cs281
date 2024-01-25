@@ -42,7 +42,7 @@ We start with a PB-503 breadboard prototyping station and an Arduino kit.
 #### We can see green for Low:
 <img src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_135542.jpg" alt="alt text" width="450"/>
 
-3. **Observation**: We observed that pins within the same column are electrically connected, sharing the same voltage. However, pins located in adjacent columns are not voltage-bearing by default. Conversely, by introducing electricity to any pin within a row—such as connecting it to a +5 Volt source—all pins in that same row become energized, carrying same voltage levels.
+3. **Observations**: We observed that pins within the same column are electrically connected, sharing the same voltage. However, pins located in adjacent columns are not voltage-bearing by default. Conversely, by introducing electricity to any pin within a row—such as connecting it to a +5 Volt source—all pins in that same row become energized, carrying same voltage levels.
 
 
 ### Step 1: Building our first digital circuit
@@ -52,10 +52,7 @@ We start with a PB-503 breadboard prototyping station and an Arduino kit.
 - The LED is direction dependent. In the LED there are two pins, with one longer than the other. The “long” end must be connected to the +5V (the same row with the wire connected to +5V) while the “short” end will be connected to the GND side (the same row with the resistor). 
 
 #### One LED: 
-![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140202.jpg) 
-
-#### Two LEDs: 
-![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140915.jpg) 
+<img src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140202.jpg" alt="alt text" width="450"/>
 
 **Remember**, the current only flows in one direction through an LED, so the circuit will only operate if the LED is connected properly and correctly.
 
