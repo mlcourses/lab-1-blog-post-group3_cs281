@@ -51,8 +51,10 @@ We start with a PB-503 breadboard prototyping station and an Arduino kit.
 - The LED is direction dependent. In the LED there are two pins, with one longer than the other. The “long” end must be connected to the +5V (the same row with the wire connected to +5V) while the “short” end will be connected to the GND side (the same row with the resistor). 
 
 #### One LED: 
+![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140202.jpg) 
 
-
+#### Two LEDs: 
+![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140915.jpg) 
 
 **Remember**, the current only flows in one direction through an LED, so the circuit will only operate if the LED is connected properly and correctly.
 
