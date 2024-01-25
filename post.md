@@ -107,7 +107,7 @@ Locate the function generator on the left side of your breadboard.
 
 - Create a new “sketch” and save it as “Lab 1”. Type in the following code:
 
-```
+```c
 const int P = 13;
 
 const int A = 1000;
