@@ -157,7 +157,7 @@ void loop() {
 
 ## Testing
 
-**For the first step:** After following the instructions for building our first digital circuit to light a LED, we turned on the breadboard and found out that the red light is lit, which means the process was correct. 
+- **For the first step:** After following the instructions for building our first digital circuit to light a LED, we turned on the breadboard and found out that the red light is lit, which means the process was correct. 
 
 #### Testing two LEDs: 
 <img src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140915.jpg" alt="alt text" width="350"/>
@@ -181,6 +181,5 @@ void loop() {
 
 ## Conclusion
 
-
-
+We can conclude that the five steps we made in this lab have been successful. We learned how to build circuits, we turned on our first LED, we learned how to work with chips that perform different logic gates, in addition to working with the arduino controller. Also, we got familiar with the breadboard and its important parts such as the logic probes, the logic switches, the function generator, the columns and the rows. Overall it was a very good experience for us as this was the first time we were dealing with circuits and the fact that it has been successful is very good. 
 
