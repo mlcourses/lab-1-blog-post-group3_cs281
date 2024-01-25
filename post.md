@@ -182,4 +182,4 @@ void loop() {
 ## Conclusion
 
 We can confidently conclude that the five steps undertaken in this lab were successful. We learned how to build circuits, turned on our first LED, and learned how to work with chips designed for different logic gates, in addition to working with the arduino controller. Also, we got familiar with the breadboard and its important parts such as the logic probes, the logic switches, the function generator, the columns, and the rows. Overall it was a very good experience for us as this was the first time we were dealing with circuits and the fact that it has been successful is very good.
-
+n
