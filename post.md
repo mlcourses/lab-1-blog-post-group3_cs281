@@ -66,7 +66,7 @@ Get one LED and follow the steps which were done in step 1, except the fact that
 After that, we will set the switch to a square wave, the top switch to 1, the other top switch to Hz.
 Then, we will “play” with the left and right sliders on the function generator to see how it impacts the frequency
 
-[LED blinking using function generator](https://drive.google.com/drive/folders/1hbvfkblD23Hgu2i4goRkYNDfIj0AtOMv)
+[LED blinking using function generator](https://drive.google.com/file/d/1hobldXbfavqi0o4JsadhW_ytkaj0Q4Lk/view?usp=sharing)
 
 
 
