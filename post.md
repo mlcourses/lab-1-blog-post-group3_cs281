@@ -85,6 +85,17 @@ Locate the function generator on the left side of your breadboard.
 
 [Testing with NOT gate](https://drive.google.com/file/d/1ho4uJNYNZBxblJtPAvjG2H1vwuKb77kp/view?usp=sharing) 
 
+### Step 4: Using the 7408 chip - the AND logic gate
+
+- Obtain a 7408 IC and examine the data sheet for the 7408 chip. We will place this chip so that it spans one of the troughs on the breadboard.
+
+#### It looks like this
+![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/Not_gate.png)
+
+- Similar to the 7404 inverter, the right hand corner is to be connected to Vcc or +5V and the lower left corner is to be connected to GND
+- Since the chip is built in a way that it has two inputs and then output, we will have two wires from the logic switches that will be connected into the input pins.
+- Then we will have another wire connected to the logic probe from the 7408 chip’s output pin. 
+- This step examines the AND logic gate. 
 
 
 
