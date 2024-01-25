@@ -70,6 +70,17 @@ Locate the function generator on the left side of your breadboard.
 
 [LED blinking using function generator](https://drive.google.com/file/d/1hobldXbfavqi0o4JsadhW_ytkaj0Q4Lk/view?usp=sharing)
 
+### Step 3: Using the 7404 chip - the NOT logic gate
+
+- Obtain a 7404 IC and examine the data sheet for the 7404 inverter. Place your inverter so that it spans one of the troughs on the breadboard.  
+
+#### It looks like this
+
+- By examining the data sheet, you will notice that the right hand corner is to be connected to Vcc or +5V and the lower left corner is to be connected to GND i.e. you need to place the chip so that the pin on the upper right hand corner is on the same row connected to +5V while the pin on the lower left hand corner is on the same row connected to GND.
+- The IC has six inverters, organized into input/output pairs. We will be using pins 1 and 2 which are 1A and 1Y respectively (1A is input 1 and 1Y is output 1). It doesn’t matter which pins are used as long as they are of the same pair.
+- The input should come from the function generator, so the wire should be connected from the function generator onto the same row of pin 1A. On this same row, connect another wire to one of the logic probe LEDs on the top right of your breadboard.
+- The output will be connected to another logic probe. Make sure the switch on the logic probe is at +5
+- The logic probes are each a pair of LEDs that will light up high or low depending on the signal connected to it. One probe is wired to show the input to the 7404 inverter and the other to its output.
 
 
 
