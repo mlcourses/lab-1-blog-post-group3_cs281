@@ -165,7 +165,7 @@ void loop() {
 **For the second step:** After following the instructions for using the function generator, we found out that the function generator is alternating between true (high) and false (low) in such a way that the LED light is blinking in accordance with the frequency of the freq slider. The higher the slider, the faster the light blinks. In addition, we found out that the AMP slider changes the brightness of the LED in such a way that the higher it is the brighter the LED.
 
 <video src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_143326.mp4
-" controls="controls" style="max-width: 730px;">
+"controls="controls" style="max-width: 730px;">
 </video>
 
 
