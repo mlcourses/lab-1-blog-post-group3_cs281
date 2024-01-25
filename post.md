@@ -164,19 +164,19 @@ void loop() {
 
 - **For the second step:** After following the instructions for using the function generator, we found out that the function generator is alternating between true (high) and false (low) in such a way that the LED light is blinking in accordance with the frequency of the freq slider. The higher the slider, the faster the light blinks. In addition, we found out that the AMP slider changes the brightness of the LED in such a way that the higher it is the brighter the LED.
 
-[Testing with alternating frequency](https://drive.google.com/file/d/1hli_WJYrgHXhcLjZcTHbCTaR0Fiy40R6/view?usp=sharing)
+  Testing with alternating frequency](https://drive.google.com/file/d/1hli_WJYrgHXhcLjZcTHbCTaR0Fiy40R6/view?usp=sharing)
 
 - **For the third step:** After following the instructions for using the 7404 chip, the NOT logic gate, we found out that the out that the function generator is alternating between true (high) and false (low) in such a way that the logic probe’s light of the input is changing and switching output (low to high, high to low). The second logic probe (connected to the output) is also alternating between high and low, however, it is not the same as the first logic probe e.g if the 1st logic probe is high then the 2nd logic probe is low, and vice versa. This occurs because we are using the inverter as the NOT logic gate, so inputs from the function generator will be inverted, thus leading to the two logic probes not showing the same lights together. 
 
-[Testing with NOT gate](https://drive.google.com/file/d/1ho4uJNYNZBxblJtPAvjG2H1vwuKb77kp/view?usp=sharing) 
+  [Testing with NOT gate](https://drive.google.com/file/d/1ho4uJNYNZBxblJtPAvjG2H1vwuKb77kp/view?usp=sharing) 
 
 - **For the fourth step:** After following the instructions for Using the 7408 chip - the AND gate, we found out that when the two logic switches are on, the red light turns on (true). In the other cases where either one of the switches is off or both of them are off, the green light turns on (false). By that, we know that this step operates correctly the AND logic gate. 
 
-[Testing with AND gate](https://drive.google.com/file/d/1hgFkk98tifWOTf-YGGIOQmUQYs7ThiY-/view?usp=sharing) 
+  [Testing with AND gate](https://drive.google.com/file/d/1hgFkk98tifWOTf-YGGIOQmUQYs7ThiY-/view?usp=sharing) 
 
 - **For the fifth step:** After following the instructions for using the Arduino controller, we witnessed to the fact that the Arduino controller looping on the inputs with True and False, making the output to be either False (when the switch is off) or alternating between True and False (when the switch is on). That result is indicating that the step operates correctly since it follows the AND gate: when the switch is off, no matter what happens with p, the whole output is false, and when the switch is on, the output is alternating between true and false since that’s how the program loops on the inputs.
 
-- [Testing with Arduino Control](https://drive.google.com/file/d/1heHwvtChfNHoktCQ_a65qY_GDRveShxH/view?usp=sharing)
+  [Testing with Arduino Control](https://drive.google.com/file/d/1heHwvtChfNHoktCQ_a65qY_GDRveShxH/view?usp=sharing)
 
 
 ## Conclusion
