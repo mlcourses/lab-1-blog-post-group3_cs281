@@ -62,9 +62,11 @@ We start with a PB-503 breadboard prototyping station and an Arduino kit.
 
 Locate the function generator on the left side of your breadboard.
 
-Get one LED and follow the steps which were done in step 1, except the fact that this time we will plug in the wire that is on the same row with the long end of the resistor onto the function generator.
-After that, we will set the switch to a square wave, the top switch to 1, the other top switch to Hz.
-Then, we will “play” with the left and right sliders on the function generator to see how it impacts the frequency
+- Get one LED and repeat the steps from step 1, but this time, use a long wire. 
+- Connect one end of this wire to one of the six non-TTL pins located below the function generator. 
+- Then, connect the other end to the high (+5V) input of your LED circuit as the positive connection.
+- After that, we will set the switch to a square wave, the top switch to 1, the other top switch to Hz.
+- Then, we will “play” with the left and right sliders on the function generator to see how it impacts the frequency. 
 
 [LED blinking using function generator](https://drive.google.com/file/d/1hobldXbfavqi0o4JsadhW_ytkaj0Q4Lk/view?usp=sharing)
 
