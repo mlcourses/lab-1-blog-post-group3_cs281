@@ -73,7 +73,7 @@ Locate the function generator on the left side of your breadboard.
 - Obtain a 7404 IC and examine the data sheet for the 7404 inverter. Place your inverter so that it spans one of the troughs on the breadboard.  
 
 #### It looks like this
-![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/Not_gate.png)
+<img src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/Not_gate.png" alt="alt text" width="450"/>
 
 - By examining the data sheet, you will notice that the right hand corner is to be connected to Vcc or +5V and the lower left corner is to be connected to GND i.e. you need to place the chip so that the pin on the upper right hand corner is on the same row connected to +5V while the pin on the lower left hand corner is on the same row connected to GND.
 - The IC has six inverters, organized into input/output pairs. We will be using pins 1 and 2 which are 1A and 1Y respectively (1A is input 1 and 1Y is output 1). It doesn’t matter which pins are used as long as they are of the same pair.
@@ -88,7 +88,7 @@ Locate the function generator on the left side of your breadboard.
 - Obtain a 7408 IC and examine the data sheet for the 7408 chip. We will place this chip so that it spans one of the troughs on the breadboard.
 
 #### It looks like this
-![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/AND_gate.png)
+<img src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/AND_gate.png" alt="alt text" width="450"/>
 
 - Similar to the 7404 inverter, the right hand corner is to be connected to Vcc or +5V and the lower left corner is to be connected to GND
 - Since the chip is built in a way that it has two inputs and then output, we will have two wires from the logic switches that will be connected into the input pins.
@@ -158,6 +158,9 @@ void loop() {
 ## Testing
 
 **For the first step:** After following the instructions for building our first digital circuit to light a LED, we turned on the breadboard and found out that the red light is lit, which means the process was correct. 
+
+#### Two LEDs: 
+![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140915.jpg) 
 
 **For the second step:** After following the instructions for using the function generator, we found out that the function generator is alternating between true (high) and false (low) in such a way that the LED light is blinking in accordance with the frequency of the freq slider. The higher the slider, the faster the light blinks. In addition, we found out that the AMP slider changes the brightness of the LED in such a way that the higher it is the brighter the LED.
 
