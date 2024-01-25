@@ -6,7 +6,7 @@ In this lab, we will explore the environment that we will use for the hardware l
 
 
 ## Materials 
-The materials we will be using in this lab are:
+
 ..* PB-503
 ..* LED'S
 ..* Wires
@@ -15,7 +15,7 @@ The materials we will be using in this lab are:
 ..* Arduino controller with the USB adapter
 ..* computer for the Arduino IDE
 ..* 7404 chip
-..* 7408 chip g
+..* 7408 chip g 
 
 
 
