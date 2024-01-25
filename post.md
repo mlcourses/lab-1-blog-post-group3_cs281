@@ -39,7 +39,7 @@ High:
 3. **Observation**: We observed that pins within the same column are electrically connected, sharing the same voltage. However, pins located in adjacent columns are not voltage-bearing by default. Conversely, by introducing electricity to any pin within a row—such as connecting it to a +5 Volt source—all pins in that same row become energized, carrying same voltage levels.
 
 - **Safety First**: Always turn off the breadboard's power before constructing or modifying circuits to prevent damage. 
-
+ll
 
 
 
