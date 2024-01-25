@@ -18,13 +18,12 @@ In this lab, we will explore the environment that we will use for the hardware l
 -  7408 chip g 
 
 
-
 ## Project Steps
 
-## Breadboard Basics
+### Breadboard Basics
 
-- **Materials Needed**: Start with a PB-503 breadboard prototyping station and an Arduino kit. Handle these devices with care to avoid damage.
-- **Understanding the PB-503**: This integrated device includes switches, LEDs, power supplies, and a function generator, all centered around a breadboard. For simplicity, we'll refer to the PB-503 as the breadboard throughout our class.
+We start with a PB-503 breadboard prototyping station and an Arduino kit. 
+- **Understanding the PB-503**: This integrated device includes switches, LEDs, power supplies, and a function generator, all centered around a breadboard.
 - **Power Supply**: The PB-503 is equipped with a +5 Volt power supply located in the upper right corner. This is the only power supply we'll use, as our circuits are designed for 5 volts. Remember, never connect to any voltage other than +5 Volts to avoid damaging your circuits.
   - **Terms for +5v**: high, hot, on, 1, Vcc.
   - **Terms for Ground**: 0 (volts), low, off, 0 (logic 0), GND.
@@ -32,15 +31,12 @@ In this lab, we will explore the environment that we will use for the hardware l
 
 ### Exploring the Breadboard
 
-1. **Initial Observation**: Notice the wires from the top rows leading to some of the breadboard's columns, connecting certain holes to +5V or Ground. Your task is to understand the wiring pattern beneath the surface.
-2. **Logic Indicators**: Use the onboard Logic Indicators (eight on the right-hand side) to test for HIGH or LOW voltage across the board. Connecting a wire from a point on the breadboard to a Logic Indicator will show red for +5V (HIGH) and green for Ground (LOW).
-3. **Experimentation**: Start probing different locations on the breadboard to determine their voltage status. Record which pins are connected to +5V, Ground, or are floating (unconnected).
-4. **Conducting Experiments**: Continue exploring where +5V and Ground are distributed on the board. Document your findings and generalize which holes are neither HIGH nor LOW. Investigate how holes on either side of the central groove are connected.
+1. **Initial Stage**: First, we initiate our breadboard setup by connecting a red wire from the power supply (+5V) to the topmost row, and a black wire from the ground to the second row from the top on the breadboard.
+2. **Logic Indicators**: We used the onboard Logic Indicators (eight on the right-hand side) to test for HIGH or LOW voltage across the board. Connecting a wire from a point on the breadboard to a Logic Indicator shows red for +5V (HIGH) and green for Ground (LOW).
+3. **Observation**: We observed that pins within the same column are electrically connected, sharing the same voltage. However, pins located in adjacent columns are not voltage-bearing by default. Conversely, by introducing electricity to any pin within a row—such as connecting it to a +5 Volt source—all pins in that same row become energized, carrying same voltage levels.
 
-### Building Your First Digital Circuit
+- **Safety First**: Always turn off the breadboard's power before constructing or modifying circuits to prevent damage. 
 
-- **Safety First**: Always turn off the breadboard's power before constructing or modifying circuits to prevent damage. Double-check your wiring against the circuit diagram before powering on.
-- **Documentation**: Record your experiments, observations, and any conclusions you draw from testing different parts of the breadboard.
 
 
 
