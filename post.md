@@ -35,7 +35,7 @@ We start with a PB-503 breadboard prototyping station and an Arduino kit.
 2. **Logic Indicators**: We used the onboard Logic Indicators (eight on the right-hand side) to test for HIGH or LOW voltage across the board. Connecting a wire from a point on the breadboard to a Logic Indicator shows red for +5V (HIGH) and green for Ground (LOW).
 
 High: 
-![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/Screenshot%202024-01-25%20at%201.36.30%E2%80%AFAM.png) 
+![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_135514.jpg) 
 3. **Observation**: We observed that pins within the same column are electrically connected, sharing the same voltage. However, pins located in adjacent columns are not voltage-bearing by default. Conversely, by introducing electricity to any pin within a row—such as connecting it to a +5 Volt source—all pins in that same row become energized, carrying same voltage levels.
 
 - **Safety First**: Always turn off the breadboard's power before constructing or modifying circuits to prevent damage. 
