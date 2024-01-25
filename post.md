@@ -36,8 +36,8 @@ We start with a PB-503 breadboard prototyping station and an Arduino kit.
 1. **Initial Stage**: First, we initiate our breadboard setup by connecting a red wire from the power supply (+5V) to the topmost row, and a black wire from the ground to the second row from the top on the breadboard.
 2. **Logic Indicators**: We used the onboard Logic Indicators (eight on the right-hand side) to test for HIGH or LOW voltage across the board. Connecting a wire from a point on the breadboard to a Logic Indicator shows red for +5V (HIGH) and green for Ground (LOW).
 
-#### We can see red for High: 
-![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_135514.jpg) 
+#### We can see red for High:
+<img src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_135514.jpg" alt="alt text" width="600"/>
 
 #### We can see green for Low:
 ![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_135542.jpg) 
@@ -159,7 +159,15 @@ void loop() {
 
 ## Testing
 
+**For the first step:** After following the instructions for building our first digital circuit to light a LED, we turned on the breadboard and found out that the red light is lit, which means the process was correct. 
 
+**For the second step:** After following the instructions for using the function generator, we found out that the function generator is alternating between true (high) and false (low) in such a way that the LED light is blinking in accordance with the frequency of the freq slider. The higher the slider, the faster the light blinks. In addition, we found out that the AMP slider changes the brightness of the LED in such a way that the higher it is the brighter the LED.
+
+**For the third step:** After following the instructions for using the 7404 chip, the NOT logic gate, we found out that the out that the function generator is alternating between true (high) and false (low) in such a way that the logic probe’s light of the input is changing and switching output (low to high, high to low). The second logic probe (connected to the output) is also alternating between high and low, however, it is not the same as the first logic probe e.g if the 1st logic probe is high then the 2nd logic probe is low, and vice versa. This occurs because we are using the inverter as the NOT logic gate, so inputs from the function generator will be inverted, thus leading to the two logic probes not showing the same lights together. 
+
+**For the fourth step:** After following the instructions for Using the 7408 chip - the AND gate, we found out that when the two logic switches are on, the red light turns on (true). In the other cases where either one of the switches is off or both of them are off, the green light turns on (false). By that, we know that this step operates correctly the AND logic gate. 
+
+**For the fifth step:** After following the instructions for using the Arduino controller, we witnessed to the fact that the Arduino controller looping on the inputs with True and False, making the output to be either False (when the switch is off) or alternating between True and False (when the switch is on). That result is indicating that the step operates correctly since it follows the AND gate: when the switch is off, no matter what happens with p, the whole output is false, and when the switch is on, the output is alternating between true and false since that’s how the program loops on the inputs.
 
 
 ## Conclusion
