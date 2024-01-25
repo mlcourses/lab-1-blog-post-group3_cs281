@@ -75,6 +75,7 @@ Locate the function generator on the left side of your breadboard.
 - Obtain a 7404 IC and examine the data sheet for the 7404 inverter. Place your inverter so that it spans one of the troughs on the breadboard.  
 
 #### It looks like this
+![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/Not_gate.png)
 
 - By examining the data sheet, you will notice that the right hand corner is to be connected to Vcc or +5V and the lower left corner is to be connected to GND i.e. you need to place the chip so that the pin on the upper right hand corner is on the same row connected to +5V while the pin on the lower left hand corner is on the same row connected to GND.
 - The IC has six inverters, organized into input/output pairs. We will be using pins 1 and 2 which are 1A and 1Y respectively (1A is input 1 and 1Y is output 1). It doesn’t matter which pins are used as long as they are of the same pair.
