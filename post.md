@@ -160,11 +160,11 @@ void loop() {
 **For the first step:** After following the instructions for building our first digital circuit to light a LED, we turned on the breadboard and found out that the red light is lit, which means the process was correct. 
 
 #### Testing two LEDs: 
-<img src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140915.jpg" alt="alt text" width="450"/>
+<img src="https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_140915.jpg" alt="alt text" width="350"/>
 
 **For the second step:** After following the instructions for using the function generator, we found out that the function generator is alternating between true (high) and false (low) in such a way that the LED light is blinking in accordance with the frequency of the freq slider. The higher the slider, the faster the light blinks. In addition, we found out that the AMP slider changes the brightness of the LED in such a way that the higher it is the brighter the LED.
 
-
+![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_143326.mp4)
 
 **For the third step:** After following the instructions for using the 7404 chip, the NOT logic gate, we found out that the out that the function generator is alternating between true (high) and false (low) in such a way that the logic probe’s light of the input is changing and switching output (low to high, high to low). The second logic probe (connected to the output) is also alternating between high and low, however, it is not the same as the first logic probe e.g if the 1st logic probe is high then the 2nd logic probe is low, and vice versa. This occurs because we are using the inverter as the NOT logic gate, so inputs from the function generator will be inverted, thus leading to the two logic probes not showing the same lights together. 
 
