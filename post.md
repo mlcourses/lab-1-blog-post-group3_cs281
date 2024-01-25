@@ -36,10 +36,11 @@ We start with a PB-503 breadboard prototyping station and an Arduino kit.
 
 High: 
 ![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_135514.jpg) 
+Low:
+![alt text](https://github.com/mlcourses/lab-1-blog-post-group3_cs281/blob/main/assets/20240118_135542.jpg) 
 3. **Observation**: We observed that pins within the same column are electrically connected, sharing the same voltage. However, pins located in adjacent columns are not voltage-bearing by default. Conversely, by introducing electricity to any pin within a row—such as connecting it to a +5 Volt source—all pins in that same row become energized, carrying same voltage levels.
 
 - **Safety First**: Always turn off the breadboard's power before constructing or modifying circuits to prevent damage. 
-ll
 
 
 
