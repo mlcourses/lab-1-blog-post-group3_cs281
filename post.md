@@ -126,13 +126,13 @@ void loop() {
 
 - Code explanation: 
 
-  - Variable P is responsible for holding the value of the port number on the Arduino. The value must match the port we will be using. In this case, we will be using port 13, so our P is going to be 13, holding constant.
+  - Variable `P` is responsible for holding the value of the port number on the Arduino. The value must match the port we will be using. In this case, we will be using port 13, so our P is going to be 13, holding constant.
 
-  - Variables A and B are the tick delay in milliseconds.
+  - Variables `A` and `B` are the tick delay in milliseconds.
 
-  - The setup() function is setting the output to the port we chose for P, in this case, port 13.
+  - The setup() function is setting the output to the port we chose for `P`, in this case, port 13.
 
-  - The loop() function is a loop alternating between true and false (HIGH and LOW) and outputting it to port P. Each output is accompanied by a 1-second or 1000-millisecond delay.
+  - The loop() function is a loop alternating between true and false (HIGH and LOW) and outputting it to port `P`. Each output is accompanied by a 1-second or 1000-millisecond delay.
 
 - After finishing writing the code, hit the “verify” button to compile your code and check that it is syntactically correct. If everything is correct, hit the “upload” button on the IDE to load your program to the Arduino. It will recompile your sketch and then connect to the Arduino. You should notice some of the lights on the Arduino blink rapidly as it is receiving data from the laptop.
 
@@ -152,10 +152,15 @@ void loop() {
 
   - Make sure that the second switch (the one still connected to the IC) is set to high.
 
-  - Turn the switch back on, you can experiment with your program by changing the values of A and B.
+  - Turn the switch back on, you can experiment with your program by changing the values of `A` and `B`.
+
+  [Testing with Arduino Control](https://drive.google.com/file/d/1heHwvtChfNHoktCQ_a65qY_GDRveShxH/view?usp=sharing)
 
 
 ## Testing
+
+
+
 
 ## Conclusion
 
