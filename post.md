@@ -109,29 +109,18 @@ Locate the function generator on the left side of your breadboard.
 
 ```c
 const int P = 13;
-
 const int A = 1000;
-
 const int B = 1000;
 
-
 void setup() {
-
-pinMode(P, OUTPUT);
-
+  pinMode(P, OUTPUT);
 }
 
-
 void loop() {
-
-digitalWrite(P, HIGH);
-
-delay(A);
-
-digitalWrite(P, LOW);
-
-delay(B);
-
+  digitalWrite(P, HIGH);
+  delay(A);
+  digitalWrite(P, LOW);
+  delay(B);
 }
 ```
 
