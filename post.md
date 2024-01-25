@@ -7,25 +7,21 @@ In this lab, we will explore the environment that we will use for the hardware l
 
 ## Materials 
 
-..* PB-503
-..* LED'S
-..* Wires
-..* 330 Ohm transistor 
-..* Arduino kit
-..* Arduino controller with the USB adapter
-..* computer for the Arduino IDE
-..* 7404 chip
-..* 7408 chip g 
+-  PB-503
+-  LED'S
+-  Wires
+-  330 Ohm transistor 
+-  Arduino kit
+-  Arduino controller with the USB adapter
+-  computer for the Arduino IDE
+-  7404 chip
+-  7408 chip g 
 
 
 
 ## Project Steps
 
 ## Breadboard Basics
-
-## Breadboard Basics: Getting Started with PB-503 and Arduino
-
-### Introduction to PB-503
 
 - **Materials Needed**: Start with a PB-503 breadboard prototyping station and an Arduino kit. Handle these devices with care to avoid damage.
 - **Understanding the PB-503**: This integrated device includes switches, LEDs, power supplies, and a function generator, all centered around a breadboard. For simplicity, we'll refer to the PB-503 as the breadboard throughout our class.
